@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T02:57:35.043Z" agent="5.0 (Windows)" etag="zS5TbMvx_exXpeKD9lUd" version="20.5.3" type="github"><diagram id="5Xb-aEHi9rVsEp3EAopa" name="第 1 页">ddHNEoIgEADgp+Gu0FiezerSyUNnRjZhBl0GabSePh0wY6wLs3y7sPwQVrTj2XIjryhAE5qIkbAjoTTf0Wmc4ekhSwM0VglP6QqVekHAJOhDCeijQoeonTIx1th1ULvIuLU4xGV31HFXwxvYQFVzvdWbEk56PdD96hdQjVw6p1nuMy1fisNNeskFDl/ESsIKi+h81I4F6Pntlnfx605/sp+DWejcjwVTsO49TaIPYuUb</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-07T03:16:21.608Z" agent="5.0 (Windows)" etag="AzOWIRpHTsEDFKbEiDMy" version="20.5.3" type="github">
+  <diagram id="5Xb-aEHi9rVsEp3EAopa" name="第 1 页">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pMtT_pzodfcerGbLjesv-44" value="" style="swimlane;startSize=0;fontColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="1250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-45" value="" style="swimlane;startSize=0;" vertex="1" parent="pMtT_pzodfcerGbLjesv-44">
+          <mxGeometry x="10" y="20" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-46" value="&lt;font color=&quot;#0000CC&quot;&gt;NB-IoT终端&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.external_storage;" vertex="1" parent="pMtT_pzodfcerGbLjesv-45">
+          <mxGeometry x="35" y="50" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-48" value="" style="swimlane;startSize=0;" vertex="1" parent="pMtT_pzodfcerGbLjesv-44">
+          <mxGeometry x="280" y="20" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-49" value="&lt;font color=&quot;#0000CC&quot;&gt;NB-IoT基站&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.radio_tower;" vertex="1" parent="pMtT_pzodfcerGbLjesv-48">
+          <mxGeometry x="53" y="60" width="55" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-50" value="" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.comm_link_edge;html=1;rounded=0;" edge="1" parent="pMtT_pzodfcerGbLjesv-44">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="180" y="180" as="sourcePoint" />
+            <mxPoint x="280" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0000CC;" edge="1" parent="pMtT_pzodfcerGbLjesv-44" source="pMtT_pzodfcerGbLjesv-53" target="pMtT_pzodfcerGbLjesv-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-53" value="" style="swimlane;startSize=0;" vertex="1" parent="pMtT_pzodfcerGbLjesv-44">
+          <mxGeometry x="540" y="20" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-54" value="" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.cloud;fontColor=#ffffff;" vertex="1" parent="pMtT_pzodfcerGbLjesv-53">
+          <mxGeometry x="35" y="85" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-55" value="NB-IOT核心网" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000CC;" vertex="1" parent="pMtT_pzodfcerGbLjesv-53">
+          <mxGeometry x="30" y="157" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0000CC;" edge="1" parent="pMtT_pzodfcerGbLjesv-44" source="pMtT_pzodfcerGbLjesv-48" target="pMtT_pzodfcerGbLjesv-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0000CC;" edge="1" parent="pMtT_pzodfcerGbLjesv-44" source="pMtT_pzodfcerGbLjesv-58" target="pMtT_pzodfcerGbLjesv-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-58" value="" style="swimlane;startSize=0;" vertex="1" parent="pMtT_pzodfcerGbLjesv-44">
+          <mxGeometry x="800" y="20" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-59" value="&lt;font&gt;Iot平台&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000CC;" vertex="1" parent="pMtT_pzodfcerGbLjesv-58">
+          <mxGeometry x="50" y="157" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-60" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server_storage;" vertex="1" parent="pMtT_pzodfcerGbLjesv-58">
+          <mxGeometry x="30" y="45" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000CC;" edge="1" parent="pMtT_pzodfcerGbLjesv-44" source="pMtT_pzodfcerGbLjesv-53" target="pMtT_pzodfcerGbLjesv-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#0000CC;" edge="1" parent="pMtT_pzodfcerGbLjesv-44" source="pMtT_pzodfcerGbLjesv-62" target="pMtT_pzodfcerGbLjesv-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-62" value="" style="swimlane;startSize=0;" vertex="1" parent="pMtT_pzodfcerGbLjesv-44">
+          <mxGeometry x="1080" y="20" width="160" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-63" value="行业应用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000CC;" vertex="1" parent="pMtT_pzodfcerGbLjesv-62">
+          <mxGeometry x="45" y="157" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-64" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" vertex="1" parent="pMtT_pzodfcerGbLjesv-62">
+          <mxGeometry x="55" y="35" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-65" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.users;" vertex="1" parent="pMtT_pzodfcerGbLjesv-62">
+          <mxGeometry x="47.5" y="92" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="pMtT_pzodfcerGbLjesv-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0000CC;" edge="1" parent="pMtT_pzodfcerGbLjesv-44" source="pMtT_pzodfcerGbLjesv-58" target="pMtT_pzodfcerGbLjesv-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
